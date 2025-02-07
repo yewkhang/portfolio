@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 187, 183, 145;
+  --bs-primary-rgb: 177, 188, 160;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -10899,9 +10899,10 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    object-fit: cover;
   }
   #sideNav .navbar-collapse {
     display: flex;
