@@ -7,7 +7,7 @@ export default function Home() {
       <nav className="fixed top-0 left-0 h-screen w-[17rem] bg-primary-600 dark:bg-primary-800 hidden lg:block">
         <div className="flex flex-col items-center p-8">
           <Image
-            className="rounded-full w-48 h-48 mb-4 border-4 border-white/20"
+            className="rounded-full w-48 h-48 mb-4 border-4 border-white/20 object-cover"
             src="/profile.jpeg"
             alt="Kuan Yew Khang"
             width={192}
@@ -152,43 +152,43 @@ export default function Home() {
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-8">
             <div className="flex flex-col items-center">
               <div className="text-4xl text-primary-600 mb-2">
-                <i className="fab fa-html5"></i>
+                <i className="fa-brands fa-html5"></i>
               </div>
               <span className="text-sm">HTML5</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="text-4xl text-primary-600 mb-2">
-                <i className="fab fa-css3-alt"></i>
+                <i className="fa-brands fa-css3-alt"></i>
               </div>
               <span className="text-sm">CSS3</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="text-4xl text-primary-600 mb-2">
-                <i className="fab fa-js-square"></i>
+                <i className="fa-brands fa-square-js"></i>
               </div>
               <span className="text-sm">JavaScript</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="text-4xl text-primary-600 mb-2">
-                <i className="fab fa-react"></i>
+                <i className="fa-brands fa-react"></i>
               </div>
               <span className="text-sm">React</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="text-4xl text-primary-600 mb-2">
-                <i className="fab fa-node-js"></i>
+                <i className="fa-brands fa-node-js"></i>
               </div>
               <span className="text-sm">Node.js</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="text-4xl text-primary-600 mb-2">
-                <i className="fab fa-python"></i>
+                <i className="fa-brands fa-python"></i>
               </div>
               <span className="text-sm">Python</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="text-4xl text-primary-600 mb-2">
-                <i className="fab fa-java"></i>
+                <i className="fa-brands fa-java"></i>
               </div>
               <span className="text-sm">Java</span>
             </div>
